@@ -1,0 +1,146 @@
+{
+  "user": {
+    "name": "Alex Ray",
+    "avatar": "avatar.png",
+    "progress": {
+      "level": 0,
+      "points": 0,
+      "streak": 0,
+      "words": 0,
+      "medals": []
+    }
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "name": "Saludos y presentaciones",
+      "level": "Principiante",
+      "completed": false,
+      "quiz": [
+        { "question": "How do you say 'Hello'?", "options": ["Hola", "Adiós", "Gracias", "Por favor"], "answer": "Hola" },
+        { "question": "How do you say 'Goodbye'?", "options": ["Adiós", "Hola", "Gracias", "Sí"], "answer": "Adiós" },
+        { "question": "Translate: 'My name is Alex'", "options": ["Me llamo Alex", "Soy Alex", "Yo Alex", "Tengo Alex"], "answer": "Me llamo Alex" },
+        { "question": "Choose the formal greeting:", "options": ["Hi", "Hey", "Good morning", "Yo"], "answer": "Good morning" },
+        { "question": "How do you introduce yourself?", "options": ["I have Alex", "I am Alex", "You Alex", "Alex am I"], "answer": "I am Alex" },
+        { "question": "Which is polite?", "options": ["Thanks", "Bye", "No", "Go"], "answer": "Thanks" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Verbo to be",
+      "level": "Principiante",
+      "completed": false,
+      "quiz": [
+        { "question": "She _ a teacher.", "options": ["a) is", "b) are", "c) am"], "answer": "a) is" },
+        { "question": "They _ my friends.", "options": ["a) am", "b) is", "c) are"], "answer": "c) are" },
+        { "question": "I _ happy.", "options": ["a) is", "b) am", "c) are"], "answer": "b) am" },
+        { "question": "He _ at school.", "options": ["a) are", "b) is", "c) am"], "answer": "b) is" },
+        { "question": "We _ ready.", "options": ["a) is", "b) are", "c) am"], "answer": "b) are" },
+        { "question": "You _ my best friend.", "options": ["a) is", "b) am", "c) are"], "answer": "c) are" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Artículos definidos e indefinidos",
+      "level": "Principiante",
+      "completed": false,
+      "quiz": [
+        { "question": "Which is the definite article?", "options": ["a", "an", "the", "some"], "answer": "the" },
+        { "question": "Choose the correct: __ apple", "options": ["a", "an", "the", "one"], "answer": "an" },
+        { "question": "Choose the correct: __ dog", "options": ["a", "an", "the", "some"], "answer": "a" },
+        { "question": "Translate: 'El libro'", "options": ["The book", "A book", "An book", "Some book"], "answer": "The book" },
+        { "question": "Translate: 'Una casa'", "options": ["The house", "A house", "An house", "Some house"], "answer": "A house" },
+        { "question": "Which is indefinite?", "options": ["The", "An", "This", "That"], "answer": "An" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pasado simple",
+      "level": "Intermedio",
+      "completed": false,
+      "quiz": [
+        { "question": "I ___ to the park yesterday.", "options": ["go", "went", "goes", "gone"], "answer": "went" },
+        { "question": "She ___ dinner last night.", "options": ["cook", "cooked", "cooking", "cooks"], "answer": "cooked" },
+        { "question": "They ___ football on Sunday.", "options": ["play", "played", "plays", "playing"], "answer": "played" },
+        { "question": "We ___ at 8 o’clock.", "options": ["arrive", "arrived", "arrives", "arriving"], "answer": "arrived" },
+        { "question": "He ___ TV after school.", "options": ["watch", "watched", "watching", "watches"], "answer": "watched" },
+        { "question": "I ___ my keys yesterday.", "options": ["lose", "loses", "lost", "losing"], "answer": "lost" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Presente perfecto",
+      "level": "Intermedio",
+      "completed": false,
+      "quiz": [
+        { "question": "I ___ seen that movie.", "options": ["have", "has", "had", "having"], "answer": "have" },
+        { "question": "She ___ finished her homework.", "options": ["have", "has", "had", "having"], "answer": "has" },
+        { "question": "They ___ gone to the park.", "options": ["have", "has", "had", "having"], "answer": "have" },
+        { "question": "We ___ never been to London.", "options": ["have", "has", "had", "having"], "answer": "have" },
+        { "question": "He ___ already eaten.", "options": ["have", "has", "had", "having"], "answer": "has" },
+        { "question": "I ___ studied English for 3 years.", "options": ["have", "has", "had", "having"], "answer": "have" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Comparativos y superlativos",
+      "level": "Intermedio",
+      "completed": false,
+      "quiz": [
+        { "question": "This book is ___ than that one.", "options": ["good", "better", "best", "bad"], "answer": "better" },
+        { "question": "She is the ___ student in the class.", "options": ["smart", "smarter", "smartest", "more smart"], "answer": "smartest" },
+        { "question": "My car is ___ than yours.", "options": ["fast", "faster", "fastest", "more fast"], "answer": "faster" },
+        { "question": "Today is the ___ day of the week.", "options": ["hot", "hotter", "hottest", "more hot"], "answer": "hottest" },
+        { "question": "He is ___ than his brother.", "options": ["tall", "taller", "tallest", "more tall"], "answer": "taller" },
+        { "question": "That was the ___ movie I’ve ever seen.", "options": ["good", "better", "best", "more good"], "answer": "best" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Condicionales tipo 1 y 2",
+      "level": "Avanzado",
+      "completed": false,
+      "quiz": [
+        { "question": "If it rains, I ___ home.", "options": ["stay", "stayed", "will stay", "would stay"], "answer": "will stay" },
+        { "question": "If I ___ rich, I would travel the world.", "options": ["am", "was", "were", "will"], "answer": "were" },
+        { "question": "She will be happy if she ___ the exam.", "options": ["pass", "passes", "passed", "passing"], "answer": "passes" },
+        { "question": "If I studied, I ___ pass the test.", "options": ["will", "would", "was", "were"], "answer": "would" },
+        { "question": "If you ___, you will get better.", "options": ["practice", "practices", "practiced", "practicing"], "answer": "practice" },
+        { "question": "If I ___ you, I would call her.", "options": ["am", "was", "were", "will"], "answer": "were" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Estilo indirecto",
+      "level": "Avanzado",
+      "completed": false,
+      "quiz": [
+        { "question": "He said he ___ tired.", "options": ["is", "was", "were", "be"], "answer": "was" },
+        { "question": "She told me she ___ there before.", "options": ["is", "was", "had been", "has been"], "answer": "had been" },
+        { "question": "They said they ___ come tomorrow.", "options": ["will", "would", "can", "could"], "answer": "would" },
+        { "question": "I asked her if she ___ English.", "options": ["speaks", "spoke", "speaking", "spoken"], "answer": "spoke" },
+        { "question": "He told me he ___ to the party.", "options": ["can’t go", "couldn’t go", "won’t go", "don’t go"], "answer": "couldn’t go" },
+        { "question": "She said she ___ help me.", "options": ["can", "could", "will", "would"], "answer": "could" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Oraciones causales y finales",
+      "level": "Avanzado",
+      "completed": false,
+      "quiz": [
+        { "question": "I stayed home ___ it was raining.", "options": ["because", "so that", "for", "but"], "answer": "because" },
+        { "question": "She left early ___ catch the train.", "options": ["because", "so that", "although", "for"], "answer": "so that" },
+        { "question": "I study hard ___ pass the exam.", "options": ["because", "so that", "although", "but"], "answer": "so that" },
+        { "question": "He was tired ___ he went to bed early.", "options": ["because", "so that", "although", "for"], "answer": "because" },
+        { "question": "She works ___ her family can live well.", "options": ["because", "so that", "although", "for"], "answer": "so that" },
+        { "question": "We stayed inside ___ the storm.", "options": ["because", "so that", "due to", "for"], "answer": "due to" }
+      ]
+    }
+  ],
+  "medals": [
+    { "id": 1, "name": "Primer Hechizo", "description": "Completa tu primera lección", "unlocked": false, "icon": "🏅" },
+    { "id": 2, "name": "Aprendiz Persistente", "description": "Gana 200 puntos", "unlocked": false, "icon": "✨" },
+    { "id": 3, "name": "Mago Avanzado", "description": "Llega al nivel 3", "unlocked": false, "icon": "🧙" }
+  ]
+}

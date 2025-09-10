@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio - WordWiz</title>
+    <link rel="stylesheet" href="css/preguntas.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1 id="lesson-title">Cargando lección...</h1>
+        <p id="progress-text"></p>
+    </header>
+
+    <main>
+        <div id="pregunta">Cargando pregunta...</div>
+        <div id="opciones"></div>
+        <p id="resultado"></p>
+        <button id="next-btn" style="display:none;">Siguiente</button>
+    </main>
+
+    <div class="popup hidden" id="feedbackPopup">
+        <p id="feedbackText"></p>
+    </div>
+
+    <script src="scripts/preguntas.js"></script>
+</body>
+</html>
