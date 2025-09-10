@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WordWiz - Crear Cuenta</title>
+        <link rel="stylesheet" href="style/registro.css" />
+    </head>
+    <body>
+        <div class="container">
+            <img src="../assets/imagen/logo.png" alt="WordWiz Logo" class="logo" />
+            <h1 class="titulo">WordWiz</h1>
+        <div class="card">
+            <h2>Crear cuenta</h2>
+            <div class="field">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="Ingresar correo electrónico" />
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="field">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Ingresar contraseña" />
+                <div class="error" id="passwordError"></div>
+            </div>
+            <button id="createBtn" disabled>Crear cuenta</button>
+            <p class="or">O inicia con</p>
+            <div class="oauth-buttons">
+                <button id="googleBtn"><img src="https://img.icons8.com/color/24/google-logo.png"/></button>
+                <button id="appleBtn"><img src="https://img.icons8.com/ios-filled/24/mac-os.png"/></button>
+            </div>
+        </div>
+        <script src="../scripts/registro.js"></script>
+    </body>
+</html>

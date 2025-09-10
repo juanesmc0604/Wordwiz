@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - WordWiz</title>
+  <link rel="stylesheet" href="style/inicio.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="app-header">
+        Wordwiz - Aprende Idiomas con Magia
+    </header>
+
+    <!-- Contenedor principal donde se inyecta el contenido dinámico -->
+    <main id="main-content"></main>
+    <!-- Templates -->
+    <template id="progress-template">
+        <section class="course-container">
+            <h2>🏆 Progreso</h2>
+            <p id="progress-level"></p>
+            <p id="progress-points"></p>
+
+            <div class="streak-banner">
+                <h2>🔥 Racha</h2>
+                <p id="streak-days">0 días</p>
+            </div>
+
+            <div id="medals-container"></div>
+
+        </section>
+    </template>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-item" data-section="profile">
+            <a href="perfil.html"><img src="../assets/imagen/perfilmago.png" width="32" alt="Perfil"></a><br>
+            Perfil
+        </div>
+        <div class="nav-item" data-section="lessons">
+            <a href="lecciones.html"><img src="../assets/imagen/WhatsApp Image 2025-09-09 at 5.41.51 PM (1).jpeg" width="32" alt="Lecciones" style="border-radius: 50%; object-fit: cover;"></a><br>
+            Lecciones
+        </div>
+        <div class="nav-item" data-section="progress">
+            <a href="inicio.html"><img src="../assets/imagen/WhatsApp Image 2025-09-09 at 5.41.51 PM.jpeg" width="32" alt="Progreso" style="border-radius: 50%; object-fit: cover;"></a><br>
+            Progreso
+    </div>
+  </nav>
+
+  <script src="../scripts/inicio.js"></script>
+</body>
+</html>

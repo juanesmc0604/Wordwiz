@@ -1,0 +1,23 @@
+/* css/temas.css */
+:root {
+    --color-fondo: #f5f5f5;
+    --color-texto: #1a1a1a;
+    --color-acento: #6CB4EE;
+}
+
+body.oscuro {
+    --color-fondo: #1e1e1e;
+    --color-texto: #f5f5f5;
+    --color-acento: #6CB4EE;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+    color: var(--color-acento);
+    transition: color 0.3s;
+}
